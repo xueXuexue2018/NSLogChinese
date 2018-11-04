@@ -15,6 +15,8 @@
 		1A0399A0214B9ADC000FC50F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03999F214B9ADC000FC50F /* main.m */; };
 		1A0399AA214B9ADC000FC50F /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0399A9214B9ADC000FC50F /* _______Tests.m */; };
 		1A0399B5214B9ADC000FC50F /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0399B4214B9ADC000FC50F /* _______UITests.m */; };
+		1A0399C4214B9B0A000FC50F /* NSArray+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0399C3214B9B0A000FC50F /* NSArray+log.m */; };
+		1A0399C7214B9B1B000FC50F /* NSDictionary+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0399C6214B9B1B000FC50F /* NSDictionary+log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1A0399B0214B9ADC000FC50F /* 控制台输出中文UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "控制台输出中文UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0399B4214B9ADC000FC50F /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		1A0399B6214B9ADC000FC50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0399C2214B9B0A000FC50F /* NSArray+log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+log.h"; sourceTree = "<group>"; };
+		1A0399C3214B9B0A000FC50F /* NSArray+log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+log.m"; sourceTree = "<group>"; };
+		1A0399C5214B9B1B000FC50F /* NSDictionary+log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+log.h"; sourceTree = "<group>"; };
+		1A0399C6214B9B1B000FC50F /* NSDictionary+log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				1A039991214B9ADC000FC50F /* AppDelegate.m */,
 				1A039993214B9ADC000FC50F /* ViewController.h */,
 				1A039994214B9ADC000FC50F /* ViewController.m */,
+				1A0399C2214B9B0A000FC50F /* NSArray+log.h */,
+				1A0399C3214B9B0A000FC50F /* NSArray+log.m */,
+				1A0399C5214B9B1B000FC50F /* NSDictionary+log.h */,
+				1A0399C6214B9B1B000FC50F /* NSDictionary+log.m */,
 				1A039996214B9ADC000FC50F /* Main.storyboard */,
 				1A039999214B9ADC000FC50F /* Assets.xcassets */,
 				1A03999B214B9ADC000FC50F /* LaunchScreen.storyboard */,
@@ -266,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A039995214B9ADC000FC50F /* ViewController.m in Sources */,
+				1A0399C4214B9B0A000FC50F /* NSArray+log.m in Sources */,
 				1A0399A0214B9ADC000FC50F /* main.m in Sources */,
+				1A0399C7214B9B1B000FC50F /* NSDictionary+log.m in Sources */,
 				1A039992214B9ADC000FC50F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

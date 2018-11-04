@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+//#import "NSArray+log.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
+  
+  NSArray *arr=@[@"我是中文1",@"我是中文2",@"我是中文3"];
+  NSLog(@"%@",arr);
 }
 
 
